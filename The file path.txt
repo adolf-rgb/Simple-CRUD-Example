@@ -1,0 +1,26 @@
+/your-project-root/
+│
+├── index.php                    // Admin dashboard (list companies & products)
+├── admin_login.php              // Admin login page
+├── db.php                       // Database connection
+│
+├── company_create.php           // Create new company
+├── company_edit.php             // Edit company details
+├── company_list.php             // (optional) list companies separately
+│
+├── product_create.php           // Create new product
+├── product_edit.php             // Edit product details
+├── product_view.php             // View product details
+├── product_hide.php             // Hide product
+├── product_delete.php           // Delete hidden product
+│
+├── api_products.php             // API: list products (with pagination & search)
+├── api_product_detail.php      // API: get single product details
+├── api_verify_gtins.php        // API: bulk GTIN validation
+│
+├── public/
+│   ├── public_product.php       // Public-facing product page (e.g., /public/01/[GTIN])
+│   ├── public_verify_gtins.php  // Public bulk GTIN verification page
+│   └── placeholder.png          // Default product image placeholder
+│
+└── assets/                      // (optional) images, CSS, JS
